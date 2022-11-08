@@ -1,6 +1,8 @@
 # Sport Programming Library
+______
 
-*This is our first project for c++! =)*
+This is collection of commonly used functions in competitive programming.
+
 
 ## Math
 - [GCD & LCM](Math/gcd_lcm.cpp)
