@@ -3,7 +3,7 @@
 *This is our first project for c++! =)*
 
 ## Math
-- [GCD & LCM](Math/bin_pow.cpp)
+- [GCD & LCM](Math/gcd_lcm.cpp)
 - [Divisibility: Prime, Dividers, Sieve of Eratosthenes etc.](Math/divisibility.cpp)
 - [Binary Exponentiation](Math/bin_pow.cpp)
 ## Notation
