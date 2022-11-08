@@ -1,7 +1,8 @@
 # Sport Programming Library
-______
+
 
 This is collection of commonly used functions in competitive programming.
+
 
 
 ## Math
