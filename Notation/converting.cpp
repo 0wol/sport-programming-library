@@ -42,7 +42,7 @@ long long convert_to_decimal(std::string s, unsigned int base) {
 	int n = s.size();
 	long long pow = 1;
 	long long res = 0;
-	for(int i = n - 1; i >= 0; i--){
+	for(int i = n - 1; i >= 0; --i){
 		if (temp[base] <= s[i]) return -1;
 		
 		if ('0' <= s[i] && s[i] <= '9')
@@ -52,7 +52,7 @@ long long convert_to_decimal(std::string s, unsigned int base) {
 		else if('A' <= s[i] && s[i] <= 'Z')
 			res += pow * (10 + (s[i] - 'A'));
 		else return -1;
-		pow *= base; // maybe % is needed for some cases
+		pow *= base; // maybe % mod is needed for some cases
 	}
 	return res;
 }
