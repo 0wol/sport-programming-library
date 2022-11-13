@@ -3,9 +3,9 @@
 
 std::vector<std::string> split(std::string s, char delimeter) {
 	std::vector<std::string> v;
-	int last = 0;
+	long long last = 0;
 	while(last < s.size() && s[last] == delimeter) last++;
-	for (int i = last; i < s.size(); ++i) {
+	for (long long i = last; i < s.size(); ++i) {
 		if (s[last] == delimeter) {
 			last = i;
 			continue;
