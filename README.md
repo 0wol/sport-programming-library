@@ -10,3 +10,5 @@ This is collection of commonly used functions in competitive programming.
 - [Binary Exponentiation](Math/bin_pow.cpp)
 ## Notation (=^･ｪ･^=))ﾉ彡☆ 
 - [Converting from/to Decimal](Notation/converting.cpp)
+## Strings ƪ(ړײ)‎ƪ​​
+- [Split Function](Strings/split.cpp)
