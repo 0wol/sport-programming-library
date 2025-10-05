@@ -7,9 +7,9 @@ bool is_prime(T n) {
     /* checks whether n is prime */
     for(T i = 2; i * i <= n; ++i) {
         if (n % i == 0) 
-            return true;
+            return false;
     }
-    return false;
+    return true;
 }
 
 template<typename T>
