@@ -15,16 +15,15 @@ bool is_prime(T n) {
 template<typename T>
 std::vector<T> get_all_divisors(T n) {
     /* returns a vector containing all divisors of the number */
-    std::vector<T> res(cbrt(n) + 1);
-    int cnt = 0;
+    std::vector<T> res;
+    res.reserve(2 * static_cast<size_t>(std::sqrt(n)) + 1);
     for(T i = 1; i * i <= n; ++i) {
         if (n % i == 0) {
-            res[cnt++] = i;
+            res.push_back(i);
             if (i != n / i)
-                res[cnt++] = n / i;
+                res.push_back(n / i);
         }
     }
-    res.resize(cnt);
     return res;
 }
 
